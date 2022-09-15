@@ -28,6 +28,39 @@ header h1 {
     font-size: 165%;
 }
 
+header p {
+    margin: 0;
+}
+
+/* Site navigation starts*/
+.site-nav {
+    margin-top: 10px;
+}
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.site-nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid rgb(188, 237, 188);
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: #e5e9dc;
+}
+
+/* Site navigation ends */
+
 .content-area {
     border-top: 5px solid crimson;
     border-bottom: 5px solid black;
@@ -45,10 +78,18 @@ header h1 {
     padding-left: 40px;
     font-size: 85%;
     box-sizing: border-box;
+    padding: 20px 40px 20px 40px;
+
 }
 
 footer {
+    
     text-align: center;
+    font-size: 87%;
+    color: lightslategray;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .fix {
     clear: both;
