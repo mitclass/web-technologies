@@ -1,5 +1,55 @@
-html{
-    background-color: crimson;
-    margin: 10px;
-    padding: 5px;
+html { 
+    background-color: rgb(73, 226, 175);
+} 
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+.container { 
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(196, 235, 196);
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+.content-area {
+    border-top: 5px solid crimson;
+    border-bottom: 5px solid black;
+}
+
+.main-area {
+    width: 66%;
+    float: left;
+}
+
+.side-bar {
+    width: 34%;
+    float: left;
+    background-color: lightgreen;
+    padding-left: 40px;
+    font-size: 85%;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+}
+.fix {
+    clear: both;
 }
